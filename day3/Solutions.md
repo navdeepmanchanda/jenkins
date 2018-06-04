@@ -14,7 +14,7 @@ Pre requisites are being installed.
 
 Maven Integration Plugin - Allow the selection of a Maven installation configured on the Global Jenkins configuration or on the Global Tool Configuration page if using Jenkins > 2.0. When auto-install is enabled, maven will be downloaded and made available for the pipeline job.
 
-Checkstyle plugin - The Checkstyle plug-in scans for checkstyle-result.xml files in the build workspace and reports the number of warnings found (files from all Checkstyle releases are supported). This plug-in is part of the suite of static code analysis plug-ins.
+Checkstyle plugin - This plug-in is supported by the Static Analysis Collector plug-in that collects different analysis results and shows the results in aggregated trend graphs. Additionally, health reporting and build stability is also based on the aggregated results.
 
 Findbugs plugin - The FindBugs plug-in scans for findbugs.xml files in the build workspace and reports the number of warnings found. This plug-in is part of the suite of static code analysis plug-ins.
 
