@@ -11,6 +11,7 @@ Static Analysis Collector Plug-in
 Cobertura Plugin
 
 Pre requisites are being installed.
+
 Maven Integration Plugin - Allow the selection of a Maven installation configured on the Global Jenkins configuration or on the Global Tool Configuration page if using Jenkins > 2.0. When auto-install is enabled, maven will be downloaded and made available for the pipeline job.
 
 Checkstyle plugin - The Checkstyle plug-in scans for checkstyle-result.xml files in the build workspace and reports the number of warnings found (files from all Checkstyle releases are supported). This plug-in is part of the suite of static code analysis plug-ins.
@@ -22,6 +23,7 @@ Static Analysis Collector plugin -  A static analysis tool reviews program code,
 Cobertura plugin - This plugin allows you to capture code coverage report from Cobertura. Jenkins will generate the trend report of coverage.
  
 path - jenkins/jenkins day3/plug-ins download.png 
+
 link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/plug-ins%20download.png
 
 Assignment 2
@@ -29,6 +31,7 @@ Install below softwares under Global tool configuration
 Maven | Maven 3.5.2
 
 link -https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/mvn3.5.2.png
+
 path -  jenkins/jenkins day3/mvn3.5.2.png 
 
 
@@ -39,6 +42,7 @@ Git | You need to manually install git first
 apt-get -y install git
 
 link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/gitinsjen.png
+
 path - jenkins/jenkins day3/gitinsjen.png 
 
 Assignment 5
@@ -48,9 +52,11 @@ Provide git repository https://github.com/OpsTree/ContinuousIntegration
 Use clean compile as target
  
 success - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/codestability2.png
+
 path -  jenkins/jenkins day3/codestability2.png 
 
 target - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/codestability1.png
+
 path -  jenkins/jenkins day3/codestability1.png 
 
 
@@ -61,9 +67,11 @@ Provide git repository https://github.com/OpsTree/ContinuousIntegration
 Use clean compile findbugs:findbugs checkstyle:checkstyle as target 
 
 success - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/staticcodeanalysis.png
+
 path -  jenkins/jenkins day3/staticcodeanalysis.png 
 
 target - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/staticcodeanalysis2.png
+
 path -  jenkins/jenkins day3/staticcodeanalysis2.png
 
 
@@ -74,7 +82,9 @@ Provide git repository https://github.com/OpsTree/ContinuousIntegration
 Use clean compile cobertura:cobertura as target 
 
 success - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/codecoverage.png
+
 path -  jenkins/jenkins day3/codecoverage.png 
 
 target - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/codecoverage2.png
+
 path -  jenkins/jenkins day3/codecoverage2.png 
