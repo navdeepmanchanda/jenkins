@@ -111,6 +111,8 @@ Enable slack integration for jenkins jobs build notifications.
 - Create a token, base url.
 - Fill these details in jenkins Global slack notifier settings
 - Click on test and see if you got any message on slack.
+
+
 Assignment3:
 Add a slave to your jenkins, restrict some of the job to your slave. 
 - Click on Manage jenkins and then click Manage nodes
