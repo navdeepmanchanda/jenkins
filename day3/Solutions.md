@@ -26,7 +26,13 @@ path - jenkins/jenkins day3/plug-ins download.png
 
 link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/plug-ins%20download.png
 
+
+
+
+
+
 Assignment 2
+
 Install below softwares under Global tool configuration 
 Maven | Maven 3.5.2
 
@@ -37,7 +43,11 @@ path -  jenkins/jenkins day3/mvn3.5.2.png
 
 Java | You need Oracle account for same | JDK 8u162
 
+
+
+
 Assignment 4
+
 Git | You need to manually install git first
 apt-get -y install git
 
@@ -45,7 +55,11 @@ link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/gitinsje
 
 path - jenkins/jenkins day3/gitinsjen.png 
 
+
+
+
 Assignment 5
+
 Setup CodeStability Job
 Choose Job type as MavenProject 
 Provide git repository https://github.com/OpsTree/ContinuousIntegration 
@@ -60,7 +74,11 @@ target - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/codest
 path -  jenkins/jenkins day3/codestability1.png 
 
 
+
+
+
 Assignment 6
+
 Setup static code analysis Job
 Choose Job type as MavenProject 
 Provide git repository https://github.com/OpsTree/ContinuousIntegration 
@@ -75,7 +93,11 @@ target - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/static
 path -  jenkins/jenkins day3/staticcodeanalysis2.png
 
 
+
+
+
 Assignment 7
+
 Setup code coverage Job
 Choose Job type as MavenProject 
 Provide git repository https://github.com/OpsTree/ContinuousIntegration 
