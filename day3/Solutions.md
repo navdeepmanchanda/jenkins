@@ -8,7 +8,19 @@ Maven integration plugin
 Checkstyle Plug-in 
 FindBugs Plug-in 
 Static Analysis Collector Plug-in 
-Cobertura Plugin 
+Cobertura Plugin
+
+Pre requisites are being installed.
+Maven Integration Plugin - Allow the selection of a Maven installation configured on the Global Jenkins configuration or on the Global Tool Configuration page if using Jenkins > 2.0. When auto-install is enabled, maven will be downloaded and made available for the pipeline job.
+
+Checkstyle plugin - The Checkstyle plug-in scans for checkstyle-result.xml files in the build workspace and reports the number of warnings found (files from all Checkstyle releases are supported). This plug-in is part of the suite of static code analysis plug-ins.
+
+Findbugs plugin - The FindBugs plug-in scans for findbugs.xml files in the build workspace and reports the number of warnings found. This plug-in is part of the suite of static code analysis plug-ins.
+
+Static Analysis Collector plugin -  A static analysis tool reviews program code, searching for application coding flaws, back doors or other malicious code.
+
+Cobertura plugin - This plugin allows you to capture code coverage report from Cobertura. Jenkins will generate the trend report of coverage.
+ 
 path - jenkins/jenkins day3/plug-ins download.png 
 link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day3/plug-ins%20download.png
 
