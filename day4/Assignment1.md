@@ -10,6 +10,10 @@ Install Nginx
 1. SSH plugin 
 2. Git plugin 
 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/sshplugin.png
+
+path -  jenkins/jenkins day4 images/sshplugin.png 
+
 
 Assignment2
 1. Enable password less login between jenkins & root user 
@@ -26,8 +30,9 @@ Assignment2
 # sudo vim /etc/ssh/ssh_config
 ( Uncomment Strictly host checking and add no )
 
-2. Check Global configuration and provide SSH remote host(root) details
 
+2. Check Global configuration and provide SSH remote host(root) details
+Provided the private key of jenkins user so that the public key which is being saved in root user can be accessed.
 
 
 
@@ -42,14 +47,9 @@ Assignment3
 1. SRC_BRANCH 
 2. TAG_NAME 
 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/tagcreator.png
 
-
-
-
-
-
-
-
+path -  jenkins/jenkins day4 images/tagcreator.png 
 
 
 Assignment4
@@ -74,7 +74,13 @@ Assignment4
 - Now you can select the sever in post build – send build artifacts over ssh
 - Provided the tranfer details for index.html
 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/deploy.png
 
+path - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/deploy.png
+
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/deploy2.png
+
+path -  jenkins/jenkins day4 images/deploy2.png 
 
 
 Assignment5
