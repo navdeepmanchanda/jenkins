@@ -11,9 +11,9 @@ job(‘hello world’) {
       }
    }
 
-link -
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/parameterised-hello-world.png
  
-path - 
+path -  jenkins/jenkins day5 images/parameterised-hello-world.png 
 
 2. hellotoperson Job (Take SALUTATION as choice parameter & NAME as string parameter) 
 
@@ -24,9 +24,9 @@ job(‘hello person’) {
       }
    }
 
-link - 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/hello-person.png
 
-path - 
+path -  jenkins/jenkins day5 images/hello-person.png 
         
 3. Gitclone and list content of cloned directory
 
@@ -40,9 +40,9 @@ job(‘hello git’) {
        } 
    }
 
-link - 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/gitclone.png
 
-path - 
+path -  jenkins/jenkins day5 images/gitclone.png 
 
 4. buildperiodically Job (This job will run by every 5 min) 
 
@@ -58,9 +58,9 @@ job(‘hello periodical’) {
        } 
    }
 
-link - 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/crongroovy.png
 
-path - 
+path -  jenkins/jenkins day5 images/crongroovy.png 
 
 5. pollscm Job (This job will have a poll interval of 2 min) 
 
@@ -76,9 +76,9 @@ job(‘hello pol’) {
        } 
    }
 
-link - 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/hellopoll.png
 
-path - 
+path -  jenkins/jenkins day5 images/hellopoll.png 
 
 6. upstream Job (This job have helloworld job as upstream) 
 
@@ -91,9 +91,9 @@ job(‘hello upstream’) {
        } 
    }
 
-link - 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/upstream.png
 
-path - 
+path -  jenkins/jenkins day5 images/upstream.png 
 
 7. downstream Job ( This job have hellotoperson job as downstream. Note: Pass variable(SALUTATION & NAME) from this job to hellotoperson job.) 
 
