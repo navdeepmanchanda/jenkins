@@ -101,14 +101,3 @@ path -  jenkins/jenkins day5 images/upstream.png
 8. nestedview Job ( This job will create a nested view named as 'ninja-jobs' with folders 'simple-jobs' & 'complex-jobs'. simple-jobs will contain helloworld, hellotoperson, Gitclone, buildperiodically and pollscm. complex-jobs will contain upstream and downstream jobs.) 
 
 
-Assignment2
- 
-Assignment3
-
-Assignment4
-
-Assignment5
-
-Assignment6
-
-Assignment7 
