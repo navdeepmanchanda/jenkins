@@ -164,13 +164,13 @@ cp /var/lib/jenkins/workspace/Spring3HibernateApp/Spring3HibernateApp/target/Spr
 
 - Build the job
 
-link - 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/tomcatSpring.png
 
-path - 
+path -  jenkins/jenkins day4 images/tomcatSpring.png 
 
-link - 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/tomcatSpring2.png
 
-path - 
+path -  jenkins/jenkins day4 images/tomcatSpring2.png 
 
 
 
