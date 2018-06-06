@@ -5,9 +5,9 @@ Assignment 1
 Create Job DSL for 
 1. helloworld Job 
   
-job(‘hello world’) {
+job('hello world') {
    steps {
-     shell(‘echo “hello world”’)
+     shell('echo “hello world”')
       }
    }
 
@@ -17,10 +17,13 @@ path -  jenkins/jenkins day5 images/parameterised-hello-world.png
 
 2. hellotoperson Job (Take SALUTATION as choice parameter & NAME as string parameter) 
 
-job(‘hello person’) {
+job('hello person') {
    parameters {
-      strinparam(‘Name’, ‘ ‘)
-      choiceparam(‘Salutation’, [‘Mr.’, ‘Mrs.’])
+      stringParam('Name', ' ')
+      choiceParam('Salutation', ['Mr.', 'Mrs.'])
+      }
+   steps {
+     shell('echo “Hello $Salutation $Name”')
       }
    }
 
@@ -30,13 +33,13 @@ path -  jenkins/jenkins day5 images/hello-person.png
         
 3. Gitclone and list content of cloned directory
 
-job(‘hello git’) {
+job('hello git') {
    scm {
-       git(‘https://github.com/lovedeepsh/jenkins.git‘)
+       git('https://github.com/lovedeepsh/jenkins.git')
        }
 
    steps {
-       shell(‘ls -al’)
+       shell('ls -al')
        } 
    }
 
@@ -46,15 +49,15 @@ path -  jenkins/jenkins day5 images/gitclone.png
 
 4. buildperiodically Job (This job will run by every 5 min) 
 
-job(‘hello periodical’) {
+job('hello periodical') {
    scm {
-       git(‘https://github.com/lovedeepsh/jenkins.git‘)
+       git('https://github.com/lovedeepsh/jenkins.git')
        }
        triggers {
-       cron(‘*/5 * * * * ‘)
+       cron('*/5 * * * * ')
        }
        steps {
-       shell(‘ls -al’)
+       shell('ls -al')
        } 
    }
 
@@ -64,15 +67,15 @@ path -  jenkins/jenkins day5 images/crongroovy.png
 
 5. pollscm Job (This job will have a poll interval of 2 min) 
 
-job(‘hello pol’) {
+job('hello pol') {
    scm {
-       git(‘https://github.com/lovedeepsh/jenkins.git‘)
+       git('https://github.com/lovedeepsh/jenkins.git')
        }
        triggers {
-       scm(‘*/2 * * * * ‘)
+       scm('*/2 * * * * ')
        }
        steps {
-       shell(‘ls -al’)
+       shell('ls -al')
        } 
    }
 
@@ -82,12 +85,12 @@ path -  jenkins/jenkins day5 images/hellopoll.png
 
 6. upstream Job (This job have helloworld job as upstream) 
 
-job(‘hello upstream’) {
+job('hello upstream') {
    triggers {
-       upstream(‘parameterised-hello-world’, ‘SUCCESS’)
+       upstream('parameterised-hello-world', 'SUCCESS')
        }
    steps {
-       shell(‘echo “This is downstream”’)
+       shell('echo “This is downstream”')
        } 
    }
 
