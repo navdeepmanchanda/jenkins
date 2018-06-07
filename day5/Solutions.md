@@ -145,7 +145,144 @@ path -  jenkins/jenkins day5 images/upstream.png
 
 7. downstream Job ( This job have hellotoperson job as downstream. Note: Pass variable(SALUTATION & NAME) from this job to hellotoperson job.) 
 
+job('hello downstream') {
+    
+    steps {
+    
+        downstreamParameterized {
+    
+        trigger('hello person') {
+
+                block {
+
+                    buildStepFailure('FAILURE')
+
+                    failure('FAILURE')
+
+                    unstable('UNSTABLE')
+
+                }
+
+                parameters {
+
+                    predefinedProps([Salutation: 'Mr.', Name: 'Lovedeep'])
+
+                }
+
+            }
+            
+
+            }
+
+        }
+    
+        }
+
 			
 8. nestedview Job ( This job will create a nested view named as 'ninja-jobs' with folders 'simple-jobs' & 'complex-jobs'. simple-jobs will contain helloworld, hellotoperson, Gitclone, buildperiodically and pollscm. complex-jobs will contain upstream and downstream jobs.) 
 
+job('ninja-jobs') {
+  
+  nestedView('simple-jobs') {
+  
+    views {
+  
+        listView('"parameterized-hello-world", "hello person", "hello git", "hello periodical", "hello poll"') 
+  
+      {         
+  
+          columns {
 
+          status()
+
+          weather()
+
+          name()
+
+          lastSuccess()
+
+          lastFailure()
+
+            }
+
+        }
+
+        }
+
+        }
+ 
+      nestedView('coplex-jobs') {
+ 
+    views {
+ 
+        listView('"hello upstream", "hello downstream"') {
+ 
+            columns {
+ 
+            status()
+
+            weather()
+
+            name()
+
+            lastSuccess()
+
+            lastFailure()
+
+            }
+
+        }
+
+        }  
+    
+        }
+    
+        }
+
+         
+
+Assignment2:
+
+Write Job DSL to Setup CI/CD (Java app) Jobs
+
+tagcreation Job (check assignment of day7 for details).
+
+codestability Job
+
+codequality Job
+
+codecoverage Job (The all 3 jobs will be based on Java project(Spring3HibernateApp) from ContinuousIntegration.)
+
+deployment Job for war file (Deployed into tomcat7).
+
+static-deployment Job for static file deployment in nginx (Deployment of static code i.e. index.html from day7 assignment).
+
+job('helloCICD') {
+  
+  scm {
+  
+    git('https://github.com/lovedeepsh/ContinuousIntegration.git')
+  
+      }
+    
+      steps {
+      
+        maven {
+     
+        goals('deploy findbugs:findbugs checkstyle:checkstyle cobertura:cobertura')
+ 
+        setRootPOM("Spring3HibernateApp/pom.xml")
+  
+        mavenInstallation('mvn3.5.3')
+       
+      shell('Spring3HibernateApp/target')
+      
+      shell('cp Spring3HibernateApp.war /var/lib/tomcat8/webapps/')
+      
+        }
+            
+            }
+        
+        }
+
+NOT RUN YET PROPERLY BUT WILL BE UPDATED SOON.
