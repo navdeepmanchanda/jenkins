@@ -59,7 +59,17 @@ path -   jenkins/jenkins day7 images/restrictslaveoutput.png
 
 
  
-3. Create a job that can run on either salve(any of the two). 
+3. Create a job that can run on either salve(any of the two).
+
+- Provided the same label to both the nodes while configuring them.
+
+- Gave the name “multiple”
+
+- Now, I gave the label expression “multiple” in the configuration of the various jobs.
+
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/multnode.png
+
+path -  jenkins/jenkins day7 images/multnode.png  
 
 Assignment 2
 
