@@ -28,13 +28,10 @@ Assignment 1
 
 - I have added 2 nodes i.e. vagrant, lovedeep.
 
-link - 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/master-slave.png
 
-path -
-
-link - 
-
-path -  
+path -  jenkins/jenkins day7 images/master-slave.png 
+  
    
 
 2. Restrict jobs for a specific jenkins slave.
@@ -51,9 +48,13 @@ path -
 
 - Now check that your job is running on that particular slave.
 
-link - 
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/restrictslave.png
 
-path - 
+path -  jenkins/jenkins day7 images/restrictslave.png 
+
+link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/restrictslaveoutput.png
+
+path -   jenkins/jenkins day7 images/restrictslaveoutput.png 
 
 
 
