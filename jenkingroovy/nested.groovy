@@ -1,9 +1,11 @@
 job('ninja-jobs') {
   nestedView('simple-jobs') {
     views {
-        listView('"parameterized-hello-world", "hello person", "hello git", "hello periodical", "hello poll"') 
-      {         
-            columns {
+      listView('simple-jobs') {
+        jobs {
+        names('parameterized-hello-world', 'hello person', 'hello git', 'hello periodical', 'hello poll')
+        }
+                columns {
                 status()
                 weather()
                 name()
@@ -11,12 +13,17 @@ job('ninja-jobs') {
                 lastFailure()
             }
         }
-        }
+    }
   }
-      nestedView('coplex-jobs') {
+        
+  
+      nestedView('complex-jobs') {
     views {
-        listView('"hello upstream", "hello downstream"') {
-            columns {
+        listView('complex-jobs') {
+          jobs {
+          names('hello upstream', 'hello downstream')
+          }
+                columns {
                 status()
                 weather()
                 name()
@@ -24,6 +31,6 @@ job('ninja-jobs') {
                 lastFailure()
             }
         }
-    }  
     }
-    }
+      }
+}
