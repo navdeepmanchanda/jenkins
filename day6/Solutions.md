@@ -31,11 +31,10 @@ Extensible: The Pipeline plugin supports custom extensions to its DSL [1] and mu
 
 Here is the Git link for groovy script :-
 
-https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day6%20images/pipeline.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day6%20images/pipeline.png)
 
-https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day6%20images/pipeline2.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day6%20images/pipeline2.png)
 
-Path :- jenkins/jenkins day6 images/pipeline.png 
 
  jenkins/jenkins day6 images/pipeline2.png 
 

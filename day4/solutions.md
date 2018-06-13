@@ -14,9 +14,8 @@ Install Nginx
 
 2. Git plugin 
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/sshplugin.png
-
-path -  jenkins/jenkins day4 images/sshplugin.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/sshplugin.png)
+ 
 
 
 Assignment2
@@ -70,9 +69,8 @@ Assignment3
 
 2. TAG_NAME 
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/tagcreator.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/tagcreator.png)
 
-path -  jenkins/jenkins day4 images/tagcreator.png 
 
 
 Assignment4
@@ -115,13 +113,11 @@ Assignment4
 
 - Provided the tranfer details for index.html
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/deploy.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/deploy.png)
 
-path - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/deploy.png
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/deploy2.png
-
-path -  jenkins/jenkins day4 images/deploy2.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/deploy2.png)
+ 
 
 
 Assignment5
@@ -164,13 +160,10 @@ cp /var/lib/jenkins/workspace/Spring3HibernateApp/Spring3HibernateApp/target/Spr
 
 - Build the job
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/tomcatSpring.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/tomcatSpring.png)
+ 
 
-path -  jenkins/jenkins day4 images/tomcatSpring.png 
-
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/tomcatSpring2.png
-
-path -  jenkins/jenkins day4 images/tomcatSpring2.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day4%20images/tomcatSpring2.png)
 
 
 

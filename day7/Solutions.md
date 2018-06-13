@@ -28,9 +28,9 @@ Assignment 1
 
 - I have added 2 nodes i.e. vagrant, lovedeep.
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/master-slave.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/master-slave.png)
 
-path -  jenkins/jenkins day7 images/master-slave.png 
+
   
    
 
@@ -48,13 +48,12 @@ path -  jenkins/jenkins day7 images/master-slave.png
 
 - Now check that your job is running on that particular slave.
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/restrictslave.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/restrictslave.png)
 
-path -  jenkins/jenkins day7 images/restrictslave.png 
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/restrictslaveoutput.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/restrictslaveoutput.png)
 
-path -   jenkins/jenkins day7 images/restrictslaveoutput.png 
+
 
 
 
@@ -67,9 +66,9 @@ path -   jenkins/jenkins day7 images/restrictslaveoutput.png
 
 - Now, I gave the label expression “multiple” in the configuration of the various jobs.
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/multnode.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day7%20images/multnode.png)
 
-path -  jenkins/jenkins day7 images/multnode.png  
+
 
 Assignment 2
 

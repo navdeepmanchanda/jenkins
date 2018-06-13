@@ -15,9 +15,9 @@ job('hello world') {
 
    }
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/parameterised-hello-world.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/parameterised-hello-world.png)
  
-path -  jenkins/jenkins day5 images/parameterised-hello-world.png 
+
 
 2. hellotoperson Job (Take SALUTATION as choice parameter & NAME as string parameter) 
 
@@ -39,10 +39,10 @@ job('hello person') {
 
    }
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/hello-person.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/hello-person.png)
 
-path -  jenkins/jenkins day5 images/hello-person.png 
-        
+ 
+
 3. Gitclone and list content of cloned directory
 
 job('hello git') {
@@ -61,9 +61,8 @@ job('hello git') {
 
    }
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/gitclone.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/gitclone.png)
 
-path -  jenkins/jenkins day5 images/gitclone.png 
 
 4. buildperiodically Job (This job will run by every 5 min) 
 
@@ -89,9 +88,8 @@ job('hello periodical') {
 
    }
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/crongroovy.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/crongroovy.png)
 
-path -  jenkins/jenkins day5 images/crongroovy.png 
 
 5. pollscm Job (This job will have a poll interval of 2 min) 
 
@@ -117,9 +115,8 @@ job('hello pol') {
 
    }
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/hellopoll.png
-
-path -  jenkins/jenkins day5 images/hellopoll.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/hellopoll.png)
+ 
 
 6. upstream Job (This job have helloworld job as upstream) 
 
@@ -139,9 +136,9 @@ job('hello upstream') {
 
    }
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/upstream.png
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day5%20images/upstream.png)
 
-path -  jenkins/jenkins day5 images/upstream.png 
+
 
 7. downstream Job ( This job have hellotoperson job as downstream. Note: Pass variable(SALUTATION & NAME) from this job to hellotoperson job.) 
 

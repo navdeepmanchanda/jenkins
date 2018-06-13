@@ -30,40 +30,33 @@ Install a plugin manually.
 Assignment 3
 Create a freestyle job to print "Hello world". 
 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/hello%20world.png
-path -  jenkins/jenkins day1 images/hello world.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/hello%20world.png)
+
 
 Assignment 4
 Create a freestyle job to which take absolute path of a directory then 
 1. List all files and directories inside that. 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/directoryls.png
-path -  jenkins/jenkins day1 images/directoryls.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/directoryls.png)
 
 2. Print a message "drectory not exist" if directory doesn't exist on file system
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/directorydne.png
-path -  jenkins/jenkins day1 images/directorydne.png  
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/directorydne.png)
 
 3. Print "Inappropriate permissions" if you don't have permissions to list files. 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/directorypd.png
-path -  jenkins/jenkins day1 images/directorypd.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/directorypd.png)
 
 Assignment 5 
 Create a job to clone your jenkins repo and cat a file from it. 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/cat.png
-path -   jenkins/jenkins day1 images/cat.png  
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/cat.png)
 
 Assignment 6
 Create tag using git plugin. 
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/tagit.png
-path -  jenkins/jenkins day1 images/tagit.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/tagit.png)
 
 
 Assignment7
 Increase and decrease number of executors and observe the build queue.
 I created 10 executers.
-link - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/Screenshot%20from%202018-06-01%2003-26-00.png
-path -  jenkins/jenkins day1 images/Screenshot from 2018-06-01 03-26-00.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/Screenshot%20from%202018-06-01%2003-26-00.png)
 
            Decrease the size to 5
-link2 - https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/Screenshot%20from%202018-06-01%2003-24-18.png
-path2 -  jenkins/jenkins day1 images/Screenshot from 2018-06-01 03-24-18.png 
+![Job DSL Plugin](https://github.com/lovedeepsh/jenkins/blob/master/jenkins%20day1%20images/Screenshot%20from%202018-06-01%2003-24-18.png)
